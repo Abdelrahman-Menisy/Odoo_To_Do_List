@@ -1,0 +1,11 @@
+<odoo>
+    <!-- Menu Items -->
+    <menuitem id="main_menu_to_do_list"
+              name="To Do"
+              web_icon = "To_Do_List,static\description\icon.png"
+    />
+    <menuitem id="sub_menu_to_do_list"
+              name="To-Do"
+              parent="main_menu_to_do_list"
+    />
+</odoo>
